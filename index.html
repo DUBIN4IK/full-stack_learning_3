@@ -4,9 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome page</title>
-    <link rel="stylesheet" href="./styles/style.css" />
     <link type="image/x-icon" rel="icon" href="./favicon.ico" sizes="any" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
+
   <body>
     <header class="header">
       <div class="container">
@@ -31,6 +41,7 @@
         </nav>
       </div>
     </header>
+
     <main>
       <section class="design-and-layout">
         <div class="container">
@@ -43,6 +54,7 @@
           <button class="design-and-layout__button">Write to me</button>
         </div>
       </section>
+
       <section class="about-me">
         <div class="container">
           <h2 class="about-me__heading">About Me</h2>
@@ -53,6 +65,7 @@
           </p>
         </div>
       </section>
+
       <section class="statistic">
         <div class="container">
           <ul class="statistic__list">
@@ -119,6 +132,7 @@
           </ul>
         </div>
       </section>
+
       <section class="how-i-work">
         <div class="container">
           <h2 class="how-i-work__heading">How I Work</h2>
@@ -128,14 +142,28 @@
             scripts since the 16th century.
           </p>
           <div class="how-i-work__video-wrapper">
-            <img src="./images/video-preview.png" alt="Video preview" />
-            <button class="how-i-work__play-button">
-              <img src="./icons/play.svg" alt="Play" />
-            </button>
+            <iframe
+              class="how-i-work__iframe"
+              src="https://www.youtube.com/embed/3mRQVJwqvrQ"
+              title="YouTube video player"
+              frameborder="0"
+              allow="
+                accelerometer;
+                autoplay;
+                clipboard-write;
+                encrypted-media;
+                gyroscope;
+                picture-in-picture;
+                web-share;
+              "
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </section>
     </main>
+
     <footer class="footer">
       <div class="container">
         <p class="footer__author">Yurii Dub</p>
