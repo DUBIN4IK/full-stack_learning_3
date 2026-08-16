@@ -1,0 +1,12 @@
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: rgba(238, 239, 241, 1);
+  --bg-accent: rgba(52, 84, 122, 1);
+
+  --text-primary: #000000;
+  --text-secondary: rgba(0, 0, 0, 0.65);
+  --text-muted: rgba(114, 114, 114, 1);
+  --text-light: #ffffff;
+
+  --accent-color: #34547a;
+}
